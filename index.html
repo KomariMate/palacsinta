@@ -42,22 +42,13 @@
               töltelékkel kínáljuk.
             </li>
           </ol>
-        </div>
-        <div class="col-lg-6">
-          <img
-            src="palacsinta_teszta.jpg"
-            alt="Palacsinta tészta"
-            title="Palacsinta tészta"
-          />
-        </div>
-      </div>
-      <form action="get">
+          <form action="get">
         <fieldset>
             <legend>Add meg a véleményedet</legend>
             <label for="felh">Felhasználónév:</label><br>
             <input type="text" id="felh"><br>
             <label for="jelszo">Jelszó:</label><br>
-            <input type="password" id="jelszo"><br><br>
+            <input type="password" id="jelszo" min="10"><br><br>
             <label for="mennyire-jo">Mennyire ízlett? </label>
             <input type="radio" name="mennyire-jo">
             <label for="1">1</label>
@@ -76,9 +67,24 @@
                 <option>könnyű</option>
                 <option>közepes</option>
                 <option>nehéz</option>
-            </select>
+            </select><br><br>
+            <input type="submit">
         </fieldset>
       </form>
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="palacsinta_teszta.jpg"
+            alt="Palacsinta tészta"
+            title="Palacsinta tészta"
+          />
+        </div>
+      </div>
+      
+      <hr>
+      <footer>
+        <a href="https://juratus.elte.hu/palacsintakiraly-egy-igazan-hagyomanyorzo-hely/" target="_blank">Palacsinta Király</a>
+      </footer>
     </main>
   </body>
 </html>
