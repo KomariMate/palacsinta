@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(200, 200, 200);
+    color: rgb(89, 89, 128);
+    max-width: 1000px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+main{
+    width: 45%;
+}
