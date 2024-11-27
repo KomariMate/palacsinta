@@ -2,19 +2,20 @@ body{
     background-color: rgb(200, 200, 200);
     color: rgb(89, 89, 128);
     max-width: 1000px;
-    margin: 0px auto 0px auto;
     text-align: center;
+    margin: 0px auto 0px auto;
 }
 
 main{
-    width: 45%;
+    width: 90%;
+    margin:auto;
 }
 
 h1{
     text-align: center;
 }
 
-h1 h2{
+h1, h2{
     text-transform: uppercase;
 }
 
