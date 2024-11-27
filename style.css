@@ -2,7 +2,6 @@ body{
     background-color: rgb(200, 200, 200);
     color: rgb(89, 89, 128);
     max-width: 1000px;
-    text-align: center;
     margin: 0px auto 0px auto;
 }
 
@@ -21,10 +20,11 @@ h1, h2{
 
 img{
     float: center;
-    margin: 50px 50px;
+    margin:50px 50px;
     width: 130%;
     border: solid 1px rgb(89 89 128);
     border-radius: 10%;
+    margin-left: 0px;
 }
 
 footer{
@@ -40,4 +40,8 @@ a{
 a :hover{
     background-color: yellow;
     color: blueviolet;
+}
+
+ul{
+    list-style: none;
 }
