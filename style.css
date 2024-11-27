@@ -9,3 +9,34 @@ body{
 main{
     width: 45%;
 }
+
+h1{
+    text-align: center;
+}
+
+h1 h2{
+    
+}
+
+img{
+    float: center;
+    margin: 50px 50px;
+    width: 130%;
+    border: solid 1px rgb(89 89 128);
+    border-radius: 10%;
+}
+
+footer{
+    text-align: center;
+}
+
+a{
+    background-color: blueviolet;
+    color: yellow;
+    text-decoration-line: none;
+}
+
+a :hover{
+    background-color: yellow;
+    color: blueviolet;
+}
